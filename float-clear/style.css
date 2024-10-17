@@ -1,0 +1,33 @@
+* {
+    margin: 10px;
+}
+.block {
+    background-color: gray;
+    border: 1px solid red;
+    display: block;
+    box-sizing: content-box;
+    text-align: center;
+    width: 30%;
+    height: 650px;
+    float: left;
+}
+.inline {
+    background-color: gray;
+    border: 1px solid red;
+    display: inline-block;
+    box-sizing: initial;
+    text-align: center;
+    width: 50%;
+    float: left;
+    clear: left;
+
+}
+.flex {
+    background-color: gray;
+    border: 1px solid red;
+    display: flex;
+    box-sizing: border-box;
+    width: 50%;
+    text-align: center;
+
+}

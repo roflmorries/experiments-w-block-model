@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 3000px;
+}
+.wrapper {
+    height: 1000px;
+}
+h2 {
+    text-align: center;
+}
+.first {
+    background-color: gray;
+    border: 1px solid red;
+    width: 10%;
+    height: 300px;
+    text-align: center;
+    overflow: scroll;
+    position: sticky; top: 0;
+
+}
+
+.fourth {
+    background-color: gray;
+    border: 1px solid red;
+    width: 10%;
+    height: 300px;
+    text-align: center;
+    position: fixed; top: 0; right: 0;
+    z-index: 11;
+    overflow: scroll;
+}
+.fifth {
+    width: 100px;
+}
+.relative {
+    position: relative; left: 500px; top: 200px;
+}
+.absolute {
+    position: absolute; top: 20px; left: 50px;
+}
